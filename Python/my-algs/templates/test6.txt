@@ -1,0 +1,5 @@
+>>> from task6 import solution
+>>> solution([3, -7, 3, -7, 3]) #switching
+5
+>>> solution([4, 4, 4]) #switching
+3

@@ -1,0 +1,33 @@
+>>> from task5 import Graph
+>>> g = Graph(4)
+>>> g.new_edge(0, 1)
+>>> g.new_edge(0, 2)
+>>> g.new_edge(0, 3)
+>>> g.new_edge(2, 0)
+>>> g.new_edge(2, 1)
+>>> g.new_edge(1, 3)
+>>> g.solution(2, 3)
+3
+>>> g = Graph(4)
+>>> g.new_edge(0, 1)
+>>> g.new_edge(1, 2)
+>>> g.new_edge(2, 3)
+>>> g.new_edge(3, 0)
+>>> g.solution(0, 3)
+1
+>>> g = Graph(4)
+>>> g.new_edge(0, 1)
+>>> g.new_edge(1, 2)
+>>> g.new_edge(3, 0)
+>>> g.solution(0, 3)
+0
+>>> g = Graph(4)
+>>> g.new_edge(0, 1)
+>>> g.new_edge(1, 0)
+>>> g.solution(0, 1)
+1
+>>> g = Graph(4)
+>>> g.new_edge(0, 1)
+>>> g.new_edge(1, 0)
+>>> g.solution(1, 0)
+1

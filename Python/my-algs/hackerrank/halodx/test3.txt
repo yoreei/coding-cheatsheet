@@ -1,0 +1,13 @@
+>>> from task3 import solution
+>>> solution("ABCDEA1234567890") #15
+'BCDEA1234567890'
+>>> solution("ABCABCABC")
+'ABC'
+>>> solution("")
+''
+>>> solution("A")
+'A'
+>>> solution("ABCABCDEFG")
+'ABCDEFG'
+>>> solution("abcabcbb")
+'abc'

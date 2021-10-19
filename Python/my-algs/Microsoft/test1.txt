@@ -1,0 +1,33 @@
+>>> from task1 import solution
+>>> solution([3, -7, 3, -7, 3]) #switching
+5
+>>> solution([4, 4, 4]) #switching
+3
+>>> solution([7, 4, -2, 4, -2, -9]) #switching
+4
+>>> solution([7, -5, -5, -5, 7, -1, 7]) #switching
+3
+>>> solution([4]) #switching
+1
+>>> solution([1, 2, 3]) #nonswitching
+0
+>>> solution([1, 1, 1, 1, 2, 1, 2, 1])
+5
+>>> solution([-1, -1, -1, -1, 2, 1, 2, -1])
+4
+>>> solution([2, -1, -1, 2]) #nonswitching
+2
+>>> solution([2, -1, 2, -1, -2, -1, 1, 2, 1, 2])
+4
+>>> solution([3, 2, 2, 2, 3])
+3
+>>> solution([-1])
+1
+>>> solution([-1, 2, 1])
+2
+>>> solution([3, 3, -3, -3, 3])
+2
+>>> solution([3, -3, 3, -3, -3, -3, 3])
+4
+>>> solution([3, -3, 3, -3, 3])
+5

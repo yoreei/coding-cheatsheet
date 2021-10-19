@@ -1,0 +1,37 @@
+>>> from task8 import solution, Node
+>>> root = Node(1)
+>>> root.left = Node(2)
+>>> root.right = Node(3)
+>>> root.left.left = Node(4)
+>>> root.left.right = Node(5)
+>>> solution(root)
+3
+>>> r2 = Node(1)
+>>> r2.left = Node(1)
+>>> r2.left.left = Node(1)
+>>> solution(r2)
+2
+>>> r3 = Node(1)
+>>> r3.left = Node(1)
+>>> r3.right = Node(1)
+>>> solution(r3)
+2
+>>> r4 = Node(1)
+>>> r4.left = Node(1)
+>>> r4.right = Node(1)
+>>> r4.right.right = Node(1)
+>>> solution(r4)
+3
+>>> r5 = Node(1)
+>>> r5.left = Node(1)
+>>> r5.right = Node(1)
+>>> r5.right.left = Node(1)
+>>> solution(r5)
+3
+>>> r6 = None
+>>> solution(r6)
+0
+>>> r7 = Node(1)
+>>> solution(r7)
+0
+

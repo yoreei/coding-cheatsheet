@@ -1,0 +1,9 @@
+>>> from task3 import solution
+>>> solution('ab', [-1, 0])
+2
+>>> solution('abbab', [-1, 0, 0, 0, 2])
+3
+>>> solution('abab', [-1, 2, 0, 1])
+2
+>>> solution('abaaabbab', [-1, 0, 0, 0, 0, 2, 3, 4, 7]) #1
+2
